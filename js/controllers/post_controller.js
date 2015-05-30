@@ -1,6 +1,6 @@
 app.controller("PostController", function($scope, PostResource, $routeParams, $location){
 
-	$scope.title = "Editar Post"
+	$scope.title = "Edit Post"
 	$scope.post = PostResource.get({id: $routeParams.id});
 	
 	$scope.savePost = function(){
